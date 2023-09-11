@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 from nltk.probability import FreqDist
 
-file = open("C:\\Users\\Alexandr\\Downloads\\messagesOfPosts.json", 'r', encoding='utf-8-sig')
+file = open("messagesOfPosts.json", 'r', encoding='utf-8-sig')
 fileText: str = file.read()
 
 
